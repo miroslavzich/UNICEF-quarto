@@ -1,0 +1,11 @@
+project:
+  type: default
+  output-dir: docs
+
+format:
+  html:
+    embed-resources: true
+    code-fold: true
+    toc: true
+    theme: cosmo
+quarto render report.ipynb
